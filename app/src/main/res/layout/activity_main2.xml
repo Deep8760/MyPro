@@ -5,37 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#009688"
+    android:background="#80CBC4"
     tools:context=".Main2Activity">
 
-    <EditText
-        android:id="@+id/email"
+
+
+
+    <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+
+        android:scrollbarSize="80dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="150dp"
+        android:background="#CFD8DC"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:ems="10"
-
-        android:hint="email"
-        android:inputType="textPersonName"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:hint="name"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/pass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="50dp"
-        android:textSize="20dp"
-        android:textColor="#B2FF59"
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:hint="email"
+        android:paddingLeft="10dp"
+        android:background="#CFD8DC"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:background="#CFD8DC"
+        android:paddingLeft="10dp"
+        android:hint="password" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
         android:ems="10"
-        android:hint="pass"
+        android:paddingLeft="10dp"
+        android:hint="phone number"
         android:inputType="textPassword"
+        android:textColor="#B2FF59"
+        android:background="#CFD8DC"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="103dp" />
-
 
 
     <Button
@@ -45,8 +81,20 @@
         android:layout_marginLeft="70dp"
         android:layout_marginTop="40dp"
         android:layout_marginRight="50dp"
-        android:background="#4DB6AC"
-        android:text="signup" />
+        android:background="#04323F"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="60dp"
+
+        android:textSize="20dp"
+        android:text=" Main page"
+        android:paddingLeft="10dp"/>
 
 
 </LinearLayout>

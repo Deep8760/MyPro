@@ -33,6 +33,7 @@ private FirebaseAuth firebaseAuth;
         text1=(EditText)findViewById(R.id.email);
         text2=(EditText)findViewById(R.id.pass);
         Login=(Button)findViewById(R.id.login) ;
+        firebaseAuth=firebaseAuth.getInstance();
 openactivity=(EditText)findViewById(R.id.activityopen) ;
 openactivity.setOnClickListener(new View.OnClickListener() {
     @Override
