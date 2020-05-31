@@ -1,51 +1,97 @@
 package com.example.mypro;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.net.wifi.hotspot2.pps.HomeSp;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.text.TextUtils;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.Toast;
-
-@SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity {
-EditText text1,text2,text3,openactivity;
-Button Login;
-private FirebaseAuth firebaseAuth;
+    EditText text1,text2,deep;
+    Button Login;
+    TextView forgetpass,signup;
 
-    private FirebaseAuth mAuth;
-
+    private FirebaseAuth.AuthStateListener firebaseAuthStateListener;
+    private FirebaseAuth firebaseAuth;
+    public void deep(View abc){
+        startActivity(new Intent(getApplicationContext(),Registeruser.class));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        text1=(EditText)findViewById(R.id.email);
-        text2=(EditText)findViewById(R.id.pass);
+        text1=(EditText)findViewById(R.id.edittext1);
+        text2=(EditText)findViewById(R.id.pass1);
+        signup=(TextView) findViewById(R.id.newactivity);
+        forgetpass=(TextView) findViewById(R.id.textView3);
         Login=(Button)findViewById(R.id.login) ;
+
         firebaseAuth=firebaseAuth.getInstance();
-openactivity=(EditText)findViewById(R.id.activityopen) ;
-openactivity.setOnClickListener(new View.OnClickListener() {
-    @Override
-    public void onClick(View view) {
-        startActivity(new Intent(getApplicationContext(),Main2Activity.class));
 
 
-    }
-});
+
+        forgetpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),ForgetPassword.class));
+            }
+        });
+        firebaseAuthStateListener=new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                if(firebaseAuth.getCurrentUser()!=null){
+                    startActivity(new Intent(getApplicationContext(),ForgetPassword.class));
 
                 }
-
             }
+        };
 
+        Login.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                String e = text1.getText().toString().trim();
+                String pa = text2.getText().toString().trim();
+                if (TextUtils.isEmpty(e) || TextUtils.isEmpty(pa)) {
+                    Toast.makeText(MainActivity.this, "Fields are empty", Toast.LENGTH_SHORT).show();
+                    return;
+                } else {
+                    firebaseAuth.signInWithEmailAndPassword(e, pa).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (!task.isSuccessful()) {
+                                Toast.makeText(MainActivity.this, "sign in problem", Toast.LENGTH_SHORT).show();
+                                return;
+                            } else {
+                                Toast.makeText(MainActivity.this,"user logged in",Toast.LENGTH_LONG).show();
+                                startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+                                return;
+                            }
+                        }
+                    });
+                }
+            }
+        });
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Registeruser.class));
+            }
+        });
+    }
+}
 
