@@ -27,17 +27,17 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener firebaseAuthStateListener;
     private FirebaseAuth firebaseAuth;
     public void deep(View abc){
-        startActivity(new Intent(getApplicationContext(),Registeruser.class));
+        startActivity(new Intent(getApplicationContext(),Register.class));
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        text1=(EditText)findViewById(R.id.edittext1);
-        text2=(EditText)findViewById(R.id.pass1);
-        signup=(TextView) findViewById(R.id.newactivity);
-        forgetpass=(TextView) findViewById(R.id.textView3);
+        text1=(EditText)findViewById(R.id.text1);
+        text2=(EditText)findViewById(R.id.text2);
+        signup=(TextView) findViewById(R.id.activity);
+        forgetpass=(TextView) findViewById(R.id.forget);
         Login=(Button)findViewById(R.id.login) ;
 
         firebaseAuth=firebaseAuth.getInstance();
@@ -47,14 +47,14 @@ public class MainActivity extends AppCompatActivity {
         forgetpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),ForgetPassword.class));
+                startActivity(new Intent(getApplicationContext(),Forgetpassword.class));
             }
         });
         firebaseAuthStateListener=new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if(firebaseAuth.getCurrentUser()!=null){
-                    startActivity(new Intent(getApplicationContext(),ForgetPassword.class));
+                    startActivity(new Intent(getApplicationContext(),Forgetpassword.class));
 
                 }
             }
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,Registeruser.class));
+                startActivity(new Intent(MainActivity.this,Register.class));
             }
         });
     }

@@ -22,6 +22,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.mypro.Forgetpassword" />
+        <activity android:name="com.example.mypro.HomeActivity" />
+        <activity android:name="com.example.mypro.Register" />
         <activity android:name="com.example.mypro.Main2Activity" />
         <activity android:name="com.example.mypro.MainActivity" >
             <intent-filter>

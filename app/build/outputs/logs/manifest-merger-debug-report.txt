@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\student\.gradle\caches\transforms-2\files-2.1\6c5a1a33c151bf1b1b969a4997bc8337\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\student\.gradle\caches\transforms-2\files-2.1\eea79921d0082cd3162f25540a57b311\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\student\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
@@ -33,29 +33,29 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\student\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\student\.gradle\caches\transforms-2\files-2.1\744e890fd9c2229fd55f0f204e895827\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\student\.gradle\caches\transforms-2\files-2.1\72cbc39fa25a246d7e646058ccbab8e7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\student\.gradle\caches\transforms-2\files-2.1\a19056003d7a5f2bc9cc665fd561b346\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:6:5-21:19
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:7:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\student\.gradle\caches\transforms-2\files-2.1\eea79921d0082cd3162f25540a57b311\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\student\.gradle\caches\transforms-2\files-2.1\eea79921d0082cd3162f25540a57b311\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\student\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
@@ -77,35 +77,47 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\st
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\student\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.mypro.Forgetpassword
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:14:9-61
+	android:name
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:14:19-49
+activity#com.example.mypro.HomeActivity
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:15:9-50
+	android:name
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:15:19-47
+activity#com.example.mypro.Register
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:16:9-46
+	android:name
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:16:19-43
 activity#com.example.mypro.Main2Activity
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:13:9-51
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:17:9-51
 	android:name
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:13:19-48
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:17:19-48
 activity#com.example.mypro.MainActivity
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\student\AndroidStudioProjects\MyPro\app\src\main\AndroidManifest.xml

@@ -12,16 +12,32 @@
         "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toppings.jpg.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable\\toppings.jpg"
+    },
+    {
         "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_liquids.PNG.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable\\liquids.PNG"
+    },
+    {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pasta.jpg.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable\\pasta.jpg"
     },
     {
         "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
         "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -52,12 +68,24 @@
         "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_herbs.PNG.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\drawable\\herbs.PNG"
+    },
+    {
         "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgetpassword.xml.flat",
+        "source": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\src\\main\\res\\layout\\activity_forgetpassword.xml"
     },
     {
         "merged": "C:\\Users\\student\\AndroidStudioProjects\\MyPro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",

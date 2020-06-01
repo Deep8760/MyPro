@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+
+
+        <FrameLayout
+            android:layout_width="410dp"
+            android:layout_height="140dp"
+            android:background="@drawable/herbs">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:text="Herbs"
+            android:textColor="#8F909A"
+            android:textSize="30dp" />
+
+        <FrameLayout
+            android:layout_width="410dp"
+            android:layout_height="140dp"
+            android:background="@drawable/toppings">
+
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:text="Toppings"
+            android:textColor="#8F909A"
+            android:textSize="30dp" />
+        <FrameLayout
+            android:layout_width="410dp"
+            android:layout_height="140dp"
+            android:background="@drawable/liquids">
+        </FrameLayout>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:text="Liquids"
+            android:textColor="#8F909A"
+            android:textSize="30dp" />
+        <FrameLayout
+            android:layout_width="410dp"
+            android:layout_height="192dp"
+            android:background="@drawable/pasta">
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:text="Grains"
+            android:textColor="#8F909A"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+
